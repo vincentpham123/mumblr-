@@ -287,7 +287,7 @@ const CommentTextArea = ({post}) => {
                         <div className='textarea-container'>
                             <textarea value={body} onChange={(event)=>setBody(event.target.value)} placeholder='type here' maxLength='475' rows='1' className='reply-textarea'></textarea>
                         </div>
-                        <button onClick={(event)=>handleCommentSubmit(event)}className='reply'>
+                        <button onClick={(event)=>handleCommentSubmit(event)} className='reply-button'>
                             <span>Reply</span>
                         </button>
 

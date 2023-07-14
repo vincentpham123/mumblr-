@@ -47,14 +47,23 @@
 }
 
 .author-pfp{
+    position: absolute;
+    background-color: transparent;
     left: -86px;
     padding-top:10px;
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
-
+    height: 100%;
+    
+    
 }
-.author-pfp img{
+.author-pfp-frame img{
     width: 60px;
     height:60px;
     border-radius: 50%;
+}
+
+.author-pfp-frame{
+    top: 60px;
+    position: sticky;
 }

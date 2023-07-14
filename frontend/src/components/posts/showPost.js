@@ -19,7 +19,9 @@ const ShowPost = ({post})=>{
             <div className='postContainer'>
                 <article className='postContent'>
                     <div className='author-pfp'>
-                        <img src={post.author.profilepic}></img>
+                        <div className='author-pfp-frame'>
+                            <img src={post.author.profilepic}></img>
+                        </div>
                     </div>
                         <PostHeader author_id= {post.author.id} username={post.author.username} dateCreated={post.dateCreated} timeCreated={post.timeCreated} />
                     <div className='post-meat'>
